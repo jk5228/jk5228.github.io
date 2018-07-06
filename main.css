@@ -1,7 +1,7 @@
 body {
   border: none;
   margin: 0;
-  font-family: 'Crimson Text', serif; }
+  font-family: 'Cutive Mono', monospace; }
 
 .header {
   position: fixed;
@@ -13,7 +13,8 @@ body {
     transform: translateY(-50%);
     font-weight: 400;
     font-size: 28;
-    width: max-content; }
+    width: max-content;
+    color: #b2b2b3; }
 
 .slide-container {
   position: relative;

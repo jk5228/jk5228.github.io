@@ -41,12 +41,16 @@ body {
 @media (orientation: portrait) {
   .header {
     position: relative;
-    height: 160px;
+    padding: 40px 40px 0px 40px;
+    height: auto;
 
     .title {
+      position: relative;
       font-size: 100px;
-      left: 50%;
-      transform: translate(-50%, -50%);
+      text-align: center;
+      width: auto;
+      left: 0;
+      transform: none;
     }
   }
 
